@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="DotHub"
+run/main_scene="res://wedot.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1260
+window/size/viewport_height=720
 
 [dotnet]
 
